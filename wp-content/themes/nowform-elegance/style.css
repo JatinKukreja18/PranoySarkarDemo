@@ -43,10 +43,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @font-face {
   font-family: "Avenir Book";
-  src: url("/wp-content/Avenir-Book.ttf"); }
+  src: url("./../../Avenir-Book.ttf"); }
 @font-face {
   font-family: "Cochin";
-  src: url("/wp-content/Cochin.ttf"); }
+  src: url("./../../Cochin.ttf"); }
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/

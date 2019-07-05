@@ -10,7 +10,7 @@
 <channel>
 	<title>Pranoy Sarkar</title>
 	<atom:link href="http://localhost/pranoysarkar/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>
 	Fri, 05 Jul 2019 14:25:45 +0000	</lastBuildDate>
@@ -22,18 +22,18 @@
 	<generator>https://wordpress.org/?v=5.1.1</generator>
 	<item>
 		<title>Hello world!</title>
-		<link>/hello-world/</link>
-				<comments>/hello-world/#comments</comments>
+		<link>./../hello-world/index.html</link>
+				<comments>./../hello-world/index.html#comments</comments>
 				<pubDate>Tue, 02 Jul 2019 08:05:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">./../index.html?p=1</guid>
 				<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 								<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
-							<wfw:commentRss>/hello-world/feed/</wfw:commentRss>
+							<wfw:commentRss>./../hello-world/feed/index.html</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 							</item>
 	</channel>
