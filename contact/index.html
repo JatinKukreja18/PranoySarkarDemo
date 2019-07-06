@@ -66,7 +66,12 @@ img.emoji {
 	window.addEventListener('load', function() {
 		fadeImages();
 	})
-</script>
+	function toggleMenu(){
+		document.querySelector('.menu-toggle').classList.toggle('active');
+		document.querySelector('.main-navigation').classList.toggle('mobile-active');
+	}
+
+</script>	
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
@@ -76,7 +81,9 @@ img.emoji {
 									</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+			<a class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" onclick="toggleMenu()">
+
+			</a>
 			<div class="menu-main-menu-container"><ul id="main-menu" class="menu"><li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="./../stories/index.html">Stories</a></li>
 <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="./../singles/index.html">Singles</a></li>
 <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="./../about/index.html">About</a></li>
