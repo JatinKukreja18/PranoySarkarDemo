@@ -4,8 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
 	<script src="./../wp-content/themes/nowform-elegance/main.js"> </script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 	<title>Singles &#8211; Pranoy Sarkar</title>
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Pranoy Sarkar &raquo; Feed" href="./../feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Pranoy Sarkar &raquo; Comments Feed" href="./../comments/feed/index.html" />
@@ -66,14 +69,17 @@ img.emoji {
 	<div id="content" class="site-content">
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main floating ps-wrapper singles-page">
+		<main id="main" class="site-main floating ps-wrapper singles-page lazyloadme">
 								<article id="post-83" class="post-83 singles type-singles status-publish hentry">
 				<div class="singles-item">
 					<div>
-						<p><img class="ps-fade-image from-down alignnone wp-image-71 size-medium" src="./../wp-content/uploads/2019/07/DSC_9456-208x300.png" alt="" width="208" height="300" srcset="./../wp-content/uploads/2019/07/DSC_9456-208x300.png 208w, ./../wp-content/uploads/2019/07/DSC_9456.png 265w" sizes="(max-width: 208px) 100vw, 208px" /></p>
+						<p><img class="alignnone wp-image-12 size-full" data-src="./wp-content/uploads/2019/07/JKP_7881.jpg" alt="" width="1080" height="1620" data-srcset="./wp-content/uploads/2019/07/JKP_7881.jpg 1080w, ./wp-content/uploads/2019/07/JKP_7881-200x300.jpg 200w, ./wp-content/uploads/2019/07/JKP_7881-768x1152.jpg 768w, ./wp-content/uploads/2019/07/JKP_7881-683x1024.jpg 683w" sizes="(max-width: 1080px) 100vw, 1080px" /></p>
 					</div>
 					<h4 class="title">
-						WOAH 2017					</h4>
+						WOAH					</h4>
+					<h4 class="title date">
+						<p>2017</p>
+					</h4>
 				</div><!-- .entry-content -->
 
 				<!-- <footer class="entry-footer"> -->
@@ -81,6 +87,23 @@ img.emoji {
 				<!-- </footer> -->
 				<!-- .entry-footer -->
 			</article><!-- #post-83 -->
+
+						<article id="post-103" class="post-103 singles type-singles status-publish hentry">
+				<div class="singles-item">
+					<div>
+						<p><img class="alignnone wp-image-104 size-full" data-src="./wp-content/uploads/2019/07/JKP_7069.jpg" alt="" width="5881" height="3921" data-srcset="./wp-content/uploads/2019/07/JKP_7069.jpg 5881w, ./wp-content/uploads/2019/07/JKP_7069-300x200.jpg 300w, ./wp-content/uploads/2019/07/JKP_7069-768x512.jpg 768w, ./wp-content/uploads/2019/07/JKP_7069-1024x683.jpg 1024w" sizes="(max-width: 5881px) 100vw, 5881px" /></p>
+					</div>
+					<h4 class="title">
+						Singles 7					</h4>
+					<h4 class="title date">
+											</h4>
+				</div><!-- .entry-content -->
+
+				<!-- <footer class="entry-footer"> -->
+					<!-- <php nowform_elegance_entry_footer(); > -->
+				<!-- </footer> -->
+				<!-- .entry-footer -->
+			</article><!-- #post-103 -->
 
 						<article id="post-87" class="post-87 singles type-singles status-publish hentry">
 				<div class="singles-item">
@@ -100,6 +123,8 @@ img.emoji {
 					</div>
 					<h4 class="title">
 						WOAH 2019					</h4>
+					<h4 class="title date">
+											</h4>
 				</div><!-- .entry-content -->
 
 				<!-- <footer class="entry-footer"> -->
@@ -111,10 +136,12 @@ img.emoji {
 						<article id="post-85" class="post-85 singles type-singles status-publish hentry">
 				<div class="singles-item">
 					<div>
-						<p><img class="alignnone size-medium wp-image-73" src="./../wp-content/uploads/2019/07/09-300x207.jpg" alt="" width="300" height="207" srcset="./../wp-content/uploads/2019/07/09-300x207.jpg 300w, ./../wp-content/uploads/2019/07/09.jpg 555w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+						<p><img class="alignnone size-medium wp-image-73" data-src="./wp-content/uploads/2019/07/09-300x207.jpg" alt="" width="300" height="207" data-srcset="./wp-content/uploads/2019/07/09-300x207.jpg 300w, ./wp-content/uploads/2019/07/09.jpg 555w" sizes="(max-width: 300px) 100vw, 300px" /></p>
 					</div>
 					<h4 class="title">
 						WOAH 2018					</h4>
+					<h4 class="title date">
+											</h4>
 				</div><!-- .entry-content -->
 
 				<!-- <footer class="entry-footer"> -->
@@ -127,24 +154,18 @@ img.emoji {
 	</div><!-- #primary -->
 <script>
 	
-	function checkGrid(){
-		const storyitems = document.querySelectorAll(".ps-story-item");
-		if(storyitems){
-			for(let i = 0; i < storyitems.length; i++){
-				im = storyitems[i].children[0].children[0];
-				// im.onload=function(){ 
-					storyitems[0].children[0].children[0]
-					if(im.width > im.height){
-						storyitems[i].classList.add('col-md-6','col-sm-6','fluid','loaded')
-					}else{
-						storyitems[i].classList.add('col-md-3','col-sm-3','fluid','loaded')
-					}
-				// } 	
-			}
-		}
-	}
-	window.addEventListener('load', function() {
-		checkGrid();
-	})
+	// function fadeImagesSingles(){
+	// 	const images = document.querySelectorAll(".singles-item");
+	// 	if(images){
+	// 		for(let i = 0; i < images.length; i++){
+	// 			setTimeout(() => {
+	// 				images[i].classList.add('loaded');
+	// 			}, 0);
+	// 		}
+	// 	}
+	// }
+	// window.addEventListener('load', function() {
+	// 	fadeImagesSingles()
+	// })
 
 </script>
