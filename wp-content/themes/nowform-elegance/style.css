@@ -1532,7 +1532,10 @@ img.lazy-load {
 
 @media only screen and (max-width: 991px) {
   .ps-wrapper {
-    padding: 0px 30px; } }
+    padding: 0px 30px; }
+
+  .site-main {
+    margin-top: 100px; } }
 @media only screen and (max-width: 767px) {
   .space-bottom-sm {
     margin-bottom: 40px; } }
@@ -1626,8 +1629,9 @@ img.lazy-load {
     margin: 0px;
     font-size: 0px; }
   .story-single .entry-content img {
-    display: inline-block;
+    display: block;
     margin-bottom: 25px;
+    margin-left: auto;
     height: 330px;
     width: auto; }
 .story-single .gallery {

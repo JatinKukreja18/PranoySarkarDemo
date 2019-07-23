@@ -11,6 +11,16 @@ function makeImagesClickable(){
                 });
             }
         }
+        else if(document.querySelector('.singles-page')){
+            let storyImages = document.querySelectorAll('.singles-page img');
+            for (var i = 0; i < storyImages.length; i++) {
+                storyImages[i].addEventListener('click', function(event) {
+                    console.log(this.currentSrc);		
+                    document.querySelector('.ps-popup-image-modal').classList.add('visible');
+                    document.querySelector("#ps-popup-image").src = this.currentSrc;
+                });
+            }
+        }
     }
 }
 (function(){
